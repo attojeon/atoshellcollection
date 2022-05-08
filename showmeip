@@ -1,0 +1,4 @@
+#!/bin/sh
+#
+#
+curl -L -X GET http://api.myip.com/ | jq '.ip'
