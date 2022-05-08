@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+#
+# $ sudo apt-get install jq
+curl -L -X GET http://ip-api.com/json/$1 | jq '.'
